@@ -1,0 +1,59 @@
+﻿Build started 1/4/2012 6:47:46 AM.
+Project "C:\Documents and Settings\Jim Bob\src\UofI\CS_472\Walking_Simulation\acpp\ACPP.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating ".\obj\ACPP.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\alloca.c src\cccp.c src\obstack.c src\version.c src\y.tab.c
+  alloca.c
+  cccp.c
+src\cccp.c(3143): warning C4133: 'function' : incompatible types - from 'long *' to 'const time_t *'
+  obstack.c
+  version.c
+  y.tab.c
+  Generating Code...
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(4395): warning C4716: 'do_ident' : must return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(4402): warning C4716: 'do_sccs' : must return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(5862): warning C4715: 'line_for_error' : not all control paths return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(6035): warning C4716: 'delete_macro' : must return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(6159): warning C4716: 'dump_arg_n' : must return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(6197): warning C4716: 'initialize_char_syntax' : must return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(6443): warning C4715: 'xmalloc' : not all control paths return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(6455): warning C4715: 'xrealloc' : not all control paths return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(6484): warning C4715: 'xcalloc' : not all control paths return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(1498): warning C4716: 'trigraph_pcp' : must return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(4345): warning C4716: 'do_once' : must return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(4357): warning C4716: 'do_pragma' : must return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(4913): warning C4716: 'validate_else' : must return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(5896): warning C4715: 'grow_outbuf' : not all control paths return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(6139): warning C4716: 'dump_defn_1' : must return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(6216): warning C4716: 'initialize_builtins' : must return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(6314): warning C4716: 'deps_output' : must return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(4301): warning C4716: 'do_undef' : must return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(6257): warning C4716: 'make_definition' : must return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(6281): warning C4716: 'make_undef' : must return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(2367): warning C4716: 'rescan' : must return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(3552): warning C4715: 'finclude' : not all control paths return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(4237): warning C4715: 'do_line' : not all control paths return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(4833): warning C4715: 'do_else' : not all control paths return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(4865): warning C4716: 'do_endif' : must return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(1392): warning C4715: 'acpp_main' : not all control paths return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(3441): warning C4715: 'do_include' : not all control paths return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(4427): warning C4716: 'do_if' : must return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(4468): warning C4715: 'do_elif' : not all control paths return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\acpp\src\cccp.c(4584): warning C4716: 'do_xifdef' : must return a value
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Documents and Settings\Jim Bob\src\UofI\CS_472\Walking_Simulation\acpp\.\obj\ACPP.lib) does not match the Library's OutputFile property value (C:\Documents and Settings\Jim Bob\src\UofI\CS_472\Walking_Simulation\acpp\Release\acpp.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+Lib:
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Release\acpp.lib" /NOLOGO .\Release/alloca.obj
+  .\Release/cccp.obj
+  .\Release/obstack.obj
+  .\Release/version.obj
+  .\Release/y.tab.obj
+  ACPP.vcxproj -> C:\Documents and Settings\Jim Bob\src\UofI\CS_472\Walking_Simulation\acpp\.\obj\ACPP.lib
+FinalizeBuildStatus:
+  Deleting file ".\obj\ACPP.unsuccessfulbuild".
+  Touching ".\obj\ACPP.lastbuildstate".
+Done Building Project "C:\Documents and Settings\Jim Bob\src\UofI\CS_472\Walking_Simulation\acpp\ACPP.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.94

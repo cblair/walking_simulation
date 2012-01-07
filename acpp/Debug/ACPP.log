@@ -1,0 +1,60 @@
+﻿Build started 11/23/2011 5:55:44 AM.
+Project "C:\Documents and Settings\Jim Bob\My Documents\Downloads\Walking_Simulation\Walking_Simulation\acpp\ACPP.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating ".\debug\ACPP.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\debug/" /Fd".\debug/vc100.pdb" /FR".\debug\\" /Gd /TC /analyze- /errorReport:prompt src\alloca.c src\cccp.c src\obstack.c src\version.c src\y.tab.c
+  alloca.c
+  cccp.c
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(3143): warning C4133: 'function' : incompatible types - from 'long *' to 'const time_t *'
+  obstack.c
+  version.c
+  y.tab.c
+  Generating Code...
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(1392): warning C4715: 'acpp_main' : not all control paths return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(1498): warning C4716: 'trigraph_pcp' : must return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(2367): warning C4716: 'rescan' : must return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(3441): warning C4715: 'do_include' : not all control paths return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(3552): warning C4715: 'finclude' : not all control paths return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(4237): warning C4715: 'do_line' : not all control paths return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(4301): warning C4716: 'do_undef' : must return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(4345): warning C4716: 'do_once' : must return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(4357): warning C4716: 'do_pragma' : must return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(4395): warning C4716: 'do_ident' : must return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(4402): warning C4716: 'do_sccs' : must return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(4427): warning C4716: 'do_if' : must return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(4468): warning C4715: 'do_elif' : not all control paths return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(4584): warning C4716: 'do_xifdef' : must return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(4833): warning C4715: 'do_else' : not all control paths return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(4865): warning C4716: 'do_endif' : must return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(4913): warning C4716: 'validate_else' : must return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(5862): warning C4715: 'line_for_error' : not all control paths return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(5896): warning C4715: 'grow_outbuf' : not all control paths return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(6035): warning C4716: 'delete_macro' : must return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(6139): warning C4716: 'dump_defn_1' : must return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(6159): warning C4716: 'dump_arg_n' : must return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(6197): warning C4716: 'initialize_char_syntax' : must return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(6216): warning C4716: 'initialize_builtins' : must return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(6257): warning C4716: 'make_definition' : must return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(6281): warning C4716: 'make_undef' : must return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(6314): warning C4716: 'deps_output' : must return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(6443): warning C4715: 'xmalloc' : not all control paths return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(6455): warning C4715: 'xrealloc' : not all control paths return a value
+c:\documents and settings\jim bob\my documents\downloads\walking_simulation\walking_simulation\acpp\src\cccp.c(6484): warning C4715: 'xcalloc' : not all control paths return a value
+Lib:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Debug\acpp.lib" /NOLOGO .\debug/alloca.obj
+  .\debug/cccp.obj
+  .\debug/obstack.obj
+  .\debug/version.obj
+  .\debug/y.tab.obj
+  ACPP.vcxproj -> C:\Documents and Settings\Jim Bob\My Documents\Downloads\Walking_Simulation\Walking_Simulation\acpp\.\debug\ACPP.lib
+BscMake:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\debug\ACPP.bsc" .\debug\alloca.sbr .\debug\cccp.sbr .\debug\obstack.sbr .\debug\version.sbr .\debug\y.tab.sbr
+FinalizeBuildStatus:
+  Deleting file ".\debug\ACPP.unsuccessfulbuild".
+  Touching ".\debug\ACPP.lastbuildstate".
+Done Building Project "C:\Documents and Settings\Jim Bob\My Documents\Downloads\Walking_Simulation\Walking_Simulation\acpp\ACPP.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.44

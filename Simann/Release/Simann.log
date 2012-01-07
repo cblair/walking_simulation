@@ -1,0 +1,233 @@
+﻿Build started 1/4/2012 6:47:48 AM.
+Project "C:\Documents and Settings\Jim Bob\src\UofI\CS_472\Walking_Simulation\Simann\Simann.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Release\Simann.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\src\assigns.c ..\src\derivs.c ..\src\Excitation_Functions.c ..\src\formain.c ..\src\formain_ga.c ..\src\GaussPattern.c ..\src\gmc.c ..\src\inits.c ..\src\invert.c ..\src\mathtools.c ..\src\model_d.c ..\src\model_s.c ..\src\pipetools.c ..\src\readmuscles.c ..\src\readtools.c ..\src\sdfor.c ..\src\sdlib.c ..\src\wrapping.c
+  assigns.c
+  derivs.c
+..\src\derivs.c(446): warning C4029: declared formal parameter list different from definition
+  Excitation_Functions.c
+  formain.c
+..\src\formain.c(36): warning C4031: second formal parameter list longer than the first list
+..\src\formain.c(37): warning C4030: first formal parameter list longer than the second list
+..\src\formain.c(37): warning C4028: formal parameter 1 different from declaration
+..\src\formain.c(288): warning C4013: 'sdinit' undefined; assuming extern returning int
+..\src\formain.c(298): warning C4013: 'sdassemble' undefined; assuming extern returning int
+..\src\formain.c(313): warning C4013: 'sdinitvel' undefined; assuming extern returning int
+..\src\formain.c(330): warning C4013: 'sdstab' undefined; assuming extern returning int
+..\src\formain.c(332): warning C4013: 'sdstate' undefined; assuming extern returning int
+..\src\formain.c(374): warning C4013: 'sdvinteg' undefined; assuming extern returning int
+..\src\formain.c(400): warning C4013: 'sdgetiner' undefined; assuming extern returning int
+..\src\formain.c(402): warning C4013: 'sdgetmass' undefined; assuming extern returning int
+..\src\formain.c(404): warning C4013: 'sdvel' undefined; assuming extern returning int
+..\src\formain.c(407): warning C4013: 'sdangvel' undefined; assuming extern returning int
+..\src\formain.c(409): warning C4013: 'sdpos' undefined; assuming extern returning int
+..\src\formain.c(616): warning C4013: 'sdmom' undefined; assuming extern returning int
+..\src\formain.c(617): warning C4013: 'sdsys' undefined; assuming extern returning int
+..\src\formain.c(730): warning C4013: 'sdprinterr' undefined; assuming extern returning int
+..\src\formain.c(109): warning C4101: 'muscle_E' : unreferenced local variable
+..\src\formain.c(764): warning C4013: 'sdhinget' undefined; assuming extern returning int
+..\src\formain.c(925): warning C4013: 'sdclearerr' undefined; assuming extern returning int
+..\src\formain.c(934): warning C4013: 'sdmult' undefined; assuming extern returning int
+..\src\formain.c(938): warning C4013: 'sdfulltrq' undefined; assuming extern returning int
+..\src\formain.c(986): warning C4013: 'sderror' undefined; assuming extern returning int
+..\src\formain.c(1105): warning C4013: 'sdtrans' undefined; assuming extern returning int
+..\src\formain.c(1141): warning C4013: 'sdpointf' undefined; assuming extern returning int
+..\src\formain.c(1007): warning C4101: 'copR' : unreferenced local variable
+..\src\formain.c(1006): warning C4101: 'r_netgrf' : unreferenced local variable
+..\src\formain.c(1006): warning C4101: 'l_cop' : unreferenced local variable
+..\src\formain.c(1006): warning C4101: 'r_cop' : unreferenced local variable
+..\src\formain.c(1007): warning C4101: 'forceL' : unreferenced local variable
+..\src\formain.c(1004): warning C4101: 'tmp' : unreferenced local variable
+..\src\formain.c(1007): warning C4101: 'forceR' : unreferenced local variable
+..\src\formain.c(1007): warning C4101: 'copL' : unreferenced local variable
+..\src\formain.c(1006): warning C4101: 'l_netgrf' : unreferenced local variable
+..\src\formain.c(1256): warning C4101: 'CalcComPosL' : unreferenced local variable
+..\src\formain.c(1260): warning C4101: 'CopCalcComL' : unreferenced local variable
+..\src\formain.c(1260): warning C4101: 'CopCalcComR' : unreferenced local variable
+..\src\formain.c(1262): warning C4101: 'dummy' : unreferenced local variable
+..\src\formain.c(1256): warning C4101: 'CalcComPosR' : unreferenced local variable
+  formain_ga.c
+..\src\formain_ga.c(240): warning C4013: 'excitation_integ' undefined; assuming extern returning int
+..\src\formain_ga.c(297): warning C4013: 'sdinit' undefined; assuming extern returning int
+..\src\formain_ga.c(307): warning C4013: 'sdassemble' undefined; assuming extern returning int
+..\src\formain_ga.c(322): warning C4013: 'sdinitvel' undefined; assuming extern returning int
+..\src\formain_ga.c(339): warning C4013: 'sdstab' undefined; assuming extern returning int
+..\src\formain_ga.c(341): warning C4013: 'sdstate' undefined; assuming extern returning int
+..\src\formain_ga.c(383): warning C4013: 'sdvinteg' undefined; assuming extern returning int
+..\src\formain_ga.c(409): warning C4013: 'sdgetiner' undefined; assuming extern returning int
+..\src\formain_ga.c(411): warning C4013: 'sdgetmass' undefined; assuming extern returning int
+..\src\formain_ga.c(413): warning C4013: 'sdvel' undefined; assuming extern returning int
+..\src\formain_ga.c(416): warning C4013: 'sdangvel' undefined; assuming extern returning int
+..\src\formain_ga.c(418): warning C4013: 'sdpos' undefined; assuming extern returning int
+..\src\formain_ga.c(625): warning C4013: 'sdmom' undefined; assuming extern returning int
+..\src\formain_ga.c(626): warning C4013: 'sdsys' undefined; assuming extern returning int
+..\src\formain_ga.c(738): warning C4013: 'sdprinterr' undefined; assuming extern returning int
+..\src\formain_ga.c(115): warning C4101: 'muscle_E' : unreferenced local variable
+  GaussPattern.c
+  gmc.c
+..\src\gmc.c(121): warning C4013: 'sdstate' undefined; assuming extern returning int
+..\src\gmc.c(165): warning C4013: 'sdderiv' undefined; assuming extern returning int
+..\src\gmc.c(376): warning C4013: 'sdpos' undefined; assuming extern returning int
+..\src\gmc.c(600): warning C4013: 'sdtrans' undefined; assuming extern returning int
+..\src\gmc.c(603): warning C4013: 'sdpointf' undefined; assuming extern returning int
+..\src\gmc.c(869): warning C4013: 'sdvel' undefined; assuming extern returning int
+..\src\gmc.c(1006): warning C4101: 'body_force_vector' : unreferenced local variable
+  inits.c
+  invert.c
+  mathtools.c
+  model_d.c
+..\src\model_d.c(1303): warning C4013: 'sdseterr' undefined; assuming extern returning int
+..\src\model_d.c(1397): warning C4013: 'sdserialno' undefined; assuming extern returning int
+..\src\model_d.c(1295): warning C4101: 'sumsq' : unreferenced local variable
+..\src\model_d.c(1295): warning C4101: 'norminv' : unreferenced local variable
+..\src\model_d.c(1947): warning C4013: 'sduperr' undefined; assuming extern returning int
+..\src\model_d.c(2304): warning C4013: 'sduverr' undefined; assuming extern returning int
+..\src\model_d.c(4497): warning C4013: 'sderror' undefined; assuming extern returning int
+..\src\model_d.c(4522): warning C4013: 'sdldudcomp' undefined; assuming extern returning int
+..\src\model_d.c(4583): warning C4013: 'sduconsfrc' undefined; assuming extern returning int
+..\src\model_d.c(4601): warning C4101: 'tstareq' : unreferenced local variable
+..\src\model_d.c(6331): warning C4013: 'sduaerr' undefined; assuming extern returning int
+..\src\model_d.c(6811): warning C4013: 'sdldubsl' undefined; assuming extern returning int
+..\src\model_d.c(6812): warning C4013: 'sdldubsd' undefined; assuming extern returning int
+..\src\model_d.c(7259): warning C4013: 'sdqrdcomp' undefined; assuming extern returning int
+..\src\model_d.c(6769): warning C4101: 'dfk' : unreferenced local variable
+..\src\model_d.c(6770): warning C4101: 'dlfc' : unreferenced local variable
+..\src\model_d.c(6771): warning C4101: 'dltaufi' : unreferenced local variable
+..\src\model_d.c(6771): warning C4101: 'dToutb' : unreferenced local variable
+..\src\model_d.c(6769): warning C4101: 'dltc' : unreferenced local variable
+..\src\model_d.c(6772): warning C4101: 'dltauto' : unreferenced local variable
+..\src\model_d.c(6771): warning C4101: 'dltauti' : unreferenced local variable
+..\src\model_d.c(6771): warning C4101: 'dTinb' : unreferenced local variable
+..\src\model_d.c(6771): warning C4101: 'dltaufo' : unreferenced local variable
+..\src\model_d.c(6769): warning C4101: 'dtau' : unreferenced local variable
+..\src\model_d.c(6769): warning C4101: 'dtk' : unreferenced local variable
+..\src\model_d.c(6769): warning C4101: 'dlfci' : unreferenced local variable
+..\src\model_d.c(6769): warning C4101: 'dltci' : unreferenced local variable
+..\src\model_d.c(7285): warning C4013: 'sdldubslv' undefined; assuming extern returning int
+..\src\model_d.c(7423): warning C4013: 'sdqrbslv' undefined; assuming extern returning int
+..\src\model_d.c(8172): warning C4101: 'lk' : unreferenced local variable
+..\src\model_d.c(8172): warning C4101: 'hnk' : unreferenced local variable
+..\src\model_d.c(8304): warning C4101: 'ikcnkt' : unreferenced local variable
+..\src\model_d.c(8626): warning C4013: 'sdvcopy' undefined; assuming extern returning int
+..\src\model_d.c(8692): warning C4013: 'sdvset' undefined; assuming extern returning int
+..\src\model_d.c(8708): warning C4013: 'sdvcross' undefined; assuming extern returning int
+..\src\model_d.c(8709): warning C4013: 'sdvadd' undefined; assuming extern returning int
+  model_s.c
+..\src\model_s.c(26): warning C4013: 'sdang2st' undefined; assuming extern returning int
+..\src\model_s.c(27): warning C4013: 'sdstate' undefined; assuming extern returning int
+..\src\model_s.c(28): warning C4013: 'sdumotion' undefined; assuming extern returning int
+..\src\model_s.c(29): warning C4013: 'sdperr' undefined; assuming extern returning int
+..\src\model_s.c(39): warning C4013: 'sdverr' undefined; assuming extern returning int
+..\src\model_s.c(51): warning C4013: 'sduforce' undefined; assuming extern returning int
+..\src\model_s.c(53): warning C4013: 'sdderiv' undefined; assuming extern returning int
+..\src\model_s.c(117): warning C4013: 'sdgentime' undefined; assuming extern returning int
+..\src\model_s.c(119): warning C4013: 'sdseterr' undefined; assuming extern returning int
+..\src\model_s.c(122): warning C4013: 'sdroot' undefined; assuming extern returning int
+..\src\model_s.c(276): warning C4013: 'sdvinteg' undefined; assuming extern returning int
+..\src\model_s.c(307): warning C4013: 'sdfinteg' undefined; assuming extern returning int
+  pipetools.c
+..\src\pipetools.c(108): warning C4013: 'sdpos' undefined; assuming extern returning int
+..\src\pipetools.c(137): warning C4013: 'sdtrans' undefined; assuming extern returning int
+..\src\pipetools.c(305): warning C4013: 'sdpointf' undefined; assuming extern returning int
+..\src\pipetools.c(313): warning C4013: 'sdbodyt' undefined; assuming extern returning int
+..\src\pipetools.c(335): warning C4013: 'sdprespos' undefined; assuming extern returning int
+..\src\pipetools.c(337): warning C4013: 'sdpresvel' undefined; assuming extern returning int
+..\src\pipetools.c(338): warning C4013: 'sdpresacc' undefined; assuming extern returning int
+..\src\pipetools.c(357): warning C4013: 'sdpres' undefined; assuming extern returning int
+..\src\pipetools.c(418): warning C4013: 'sdgetht' undefined; assuming extern returning int
+..\src\pipetools.c(451): warning C4013: 'sdhinget' undefined; assuming extern returning int
+..\src\pipetools.c(633): warning C4013: 'sdmom' undefined; assuming extern returning int
+..\src\pipetools.c(634): warning C4013: 'sdsys' undefined; assuming extern returning int
+..\src\pipetools.c(635): warning C4013: 'sdgetgrav' undefined; assuming extern returning int
+  readmuscles.c
+..\src\readmuscles.c(162): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(299) : see declaration of 'unlink'
+..\src\readmuscles.c(84): warning C4101: 'i' : unreferenced local variable
+..\src\readmuscles.c(84): warning C4101: 'j' : unreferenced local variable
+..\src\readmuscles.c(379): warning C4101: 'i' : unreferenced local variable
+..\src\readmuscles.c(913): warning C4047: '=' : 'int' differs in levels of indirection from 'void *'
+..\src\readmuscles.c(907): warning C4101: 'i' : unreferenced local variable
+..\src\readmuscles.c(952): warning C4101: 'i' : unreferenced local variable
+  readtools.c
+..\src\readtools.c(828): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(299) : see declaration of 'unlink'
+..\src\readtools.c(1247): warning C4133: 'function' : incompatible types - from 'char [256]' to 'LPWSTR'
+  sdfor.c
+..\src\sdfor.c(1162): warning C4013: 'sdhinget' undefined; assuming extern returning int
+  sdlib.c
+..\src\sdlib.c(1612): warning C4101: 'temp' : unreferenced local variable
+  wrapping.c
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\BiModalPattern.cpp ..\src\CostFunc.cpp ..\src\FileReadWrite.cpp ..\src\ga_i.cpp ..\src\ga_main.cpp ..\src\ga_pop.cpp ..\src\SetExcPattern_Templates.cpp ..\src\SetParamBounds.cpp ..\src\SetStructure.cpp ..\src\Simann.cpp ..\src\UpdatePattern.cpp
+  BiModalPattern.cpp
+..\src\BiModalPattern.cpp(94): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+..\src\BiModalPattern.cpp(95): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+  CostFunc.cpp
+  FileReadWrite.cpp
+..\src\FileReadWrite.cpp(408): warning C4101: 'i' : unreferenced local variable
+..\src\FileReadWrite.cpp(412): warning C4101: 'opt_param_num' : unreferenced local variable
+..\src\FileReadWrite.cpp(409): warning C4101: 'fp_init' : unreferenced local variable
+..\src\FileReadWrite.cpp(409): warning C4101: 'fp_error' : unreferenced local variable
+..\src\FileReadWrite.cpp(412): warning C4101: 'm' : unreferenced local variable
+..\src\FileReadWrite.cpp(408): warning C4101: 'j' : unreferenced local variable
+  ga_i.cpp
+  ga_main.cpp
+..\src\ga_main.cpp(127): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+..\src\ga_main.cpp(135): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+..\src\ga_main.cpp(177): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+..\src\ga_main.cpp(219): warning C4101: 'j' : unreferenced local variable
+  ga_pop.cpp
+  SetExcPattern_Templates.cpp
+  SetParamBounds.cpp
+  SetStructure.cpp
+  Simann.cpp
+  UpdatePattern.cpp
+..\src\UpdatePattern.cpp(49): warning C4101: 'foo' : unreferenced local variable
+Link:
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\Jim Bob\src\UofI\CS_472\Walking_Simulation\Simann\Release\Simann.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\acpp\Release acpp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt /MANIFEST /ManifestFile:"Release\Simann.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\Jim Bob\src\UofI\CS_472\Walking_Simulation\Simann\Release\Simann.pdb" /SUBSYSTEM:CONSOLE /HEAP:"0","0" /STACK:"2000000","2000000" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\Jim Bob\src\UofI\CS_472\Walking_Simulation\Simann\Release\Simann.lib" /MACHINE:X86 Release\assigns.obj
+  Release\BiModalPattern.obj
+  Release\CostFunc.obj
+  Release\derivs.obj
+  Release\Excitation_Functions.obj
+  Release\FileReadWrite.obj
+  Release\formain.obj
+  Release\formain_ga.obj
+  Release\GaussPattern.obj
+  Release\ga_i.obj
+  Release\ga_main.obj
+  Release\ga_pop.obj
+  Release\gmc.obj
+  Release\inits.obj
+  Release\invert.obj
+  Release\mathtools.obj
+  Release\model_d.obj
+  Release\model_s.obj
+  Release\pipetools.obj
+  Release\readmuscles.obj
+  Release\readtools.obj
+  Release\sdfor.obj
+  Release\sdlib.obj
+  Release\SetExcPattern_Templates.obj
+  Release\SetParamBounds.obj
+  Release\SetStructure.obj
+  Release\Simann.obj
+  Release\UpdatePattern.obj
+  Release\wrapping.obj
+  "C:\Documents and Settings\Jim Bob\src\UofI\CS_472\Walking_Simulation\acpp\Release\acpp.lib"
+  Generating code
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\src\derivs.c(223): warning C4789: destination of memory copy is too small
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\src\formain.c(893): warning C4716: 'sduforce' : must return a value
+c:\documents and settings\jim bob\src\uofi\cs_472\walking_simulation\src\formain.c(871): warning C4716: 'sdumotion' : must return a value
+  Finished generating code
+  Simann.vcxproj -> C:\Documents and Settings\Jim Bob\src\UofI\CS_472\Walking_Simulation\Simann\Release\Simann.exe
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Documents and Settings\Jim Bob\src\UofI\CS_472\Walking_Simulation\Simann\Release\Simann.exe;#1" /manifest Release\Simann.exe.intermediate.manifest
+FinalizeBuildStatus:
+  Deleting file "Release\Simann.unsuccessfulbuild".
+  Touching "Release\Simann.lastbuildstate".
+Done Building Project "C:\Documents and Settings\Jim Bob\src\UofI\CS_472\Walking_Simulation\Simann\Simann.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.23

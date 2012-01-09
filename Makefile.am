@@ -1,7 +1,7 @@
 dist_doc_DATA = README
 
 bin_PROGRAMS = wsim
-R
+
 #CC sources
 wsim_SOURCES = acpp/src/alloca.c
 wsim_SOURCES += acpp/src/cccp.c
@@ -47,3 +47,23 @@ wsim_SOURCES += src/SetPattern.cpp
 wsim_SOURCES += src/SetStructure.cpp
 wsim_SOURCES += src/Simann.cpp
 wsim_SOURCES += src/UpdatePattern.cpp
+
+wsim_HEADERS = acpp/src/config.h
+wsim_HEADERS += acpp/src/make_depend.h
+wsim_HEADERS += acpp/src/obstack.h
+wsim_HEADERS += acpp/src/tm.h
+wsim_HEADERS += Simann/ga_main.h
+wsim_HEADERS += src/basic.h
+wsim_HEADERS += src/ExcGroups.h
+wsim_HEADERS += src/functions.h
+wsim_HEADERS += src/ga_i.h
+wsim_HEADERS += src/ga_main.h
+wsim_HEADERS += src/ga_pop.h
+wsim_HEADERS += src/Look.h
+wsim_HEADERS += src/macros.h
+wsim_HEADERS += src/mathtools.h
+wsim_HEADERS += src/SA.h
+wsim_HEADERS += src/SAstructs.h
+wsim_HEADERS += src/structs.h
+wsim_HEADERS += src/system_params.h
+wsim_HEADERS += src/universal.h
